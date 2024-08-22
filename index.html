@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AppOfTheDay</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="#" class="brand">AppOfTheDay</a>
+        <button class="hamburger" onclick="toggleMenu()">☰</button>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Section -->
+    <main class="main-content">
+        <div class="project-cards">
+            <!-- Example Project Card -->
+            <div class="project-card">
+                <img src="project-image.jpg" alt="Project Image">
+                <h3>App Data Collector</h3>
+                <p>This script collects information about installed apps on an Android device, including package name and installation time. It outputs a JSON file containing the collected data.</p>
+                <p><strong>Category:</strong> Mobile Script from PC</p>
+                <p><strong>Tech Stack:</strong>Python, ADB</p>
+                <p><strong>Progress:</strong> 25%</p>
+                <p><strong>Contributors:</strong>Hassan</p>
+                <a href="project-details.html" class="details-link" target="blanck">Script Page</a>
+            </div>
+            <!-- Add more project cards as needed -->
+        </div>
+
+        <!-- Pagination -->
+        <div class="pagination">
+            <a href="#">&laquo; Prev</a>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">Next &raquo;</a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 AppOfTheDay. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
